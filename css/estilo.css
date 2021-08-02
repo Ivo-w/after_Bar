@@ -1,0 +1,492 @@
+.nav {
+  background-color: violet; }
+
+.presentacion__titulo--color {
+  color: orange; }
+
+.presentacion__parrafo--color {
+  color: black; }
+
+.footer {
+  background-color: violet; }
+
+.noticia__titulo--color {
+  color: orange; }
+
+.nav__text--color {
+  color: white;
+  text-shadow: black 1px 2px 2px; }
+
+.footer__text--color {
+  color: white;
+  text-shadow: black 1px 2px 2px; }
+
+.quienes__titulo--color {
+  color: orange; }
+
+.quienes__parrafo--color {
+  color: black; }
+
+.mapa__titulo--color {
+  color: orange; }
+
+.contacto__titulo--color {
+  color: orange; }
+
+.formulario__letra--color {
+  color: black; }
+
+.info__presentacion--color {
+  color: orangered; }
+
+.blue {
+  color: blue; }
+
+.yellow {
+  color: yellow; }
+
+.black {
+  color: black; }
+
+.white {
+  color: white; }
+
+/*mapget*/
+.mapa {
+  background-color: #D1FDFF;
+  padding: 1rem; }
+
+.mapa__titulo--color {
+  font-size: 35px;
+  color: orange; }
+
+.row {
+  width: 100%; }
+
+h1 {
+  font-size: 55px; }
+
+@media only screen and (min-width: 1024px) {
+  .presentacion .h1 {
+    font-size: 55px; }
+  .presentacion .h3 {
+    font-size: 35px; }
+  .presentacion .p {
+    font-size: 18px; } }
+
+.imagen--tamanio {
+  height: 80px;
+  width: 120px; }
+
+.presentacion__titulo--tamanio {
+  font-size: 40px;
+  font-family: Tahoma; }
+
+.presentacion__parrafo--tamanio {
+  font-size: 25px;
+  font-family: monospace; }
+
+.noticia__titulo--tamanio {
+  font-size: 40px;
+  font-family: Tahoma; }
+
+.noticia__img--tamanio {
+  height: 400px; }
+
+.nav__text--tamanio {
+  font-size: 20px; }
+
+.footer__text--tamanio {
+  font-size: 17px; }
+
+.quienes__titulo--tamanio {
+  font-size: 40px;
+  font-family: Tahoma; }
+
+.quienes__parrafo--tamanio {
+  font-size: 25px;
+  font-family: monospace; }
+
+.quienes__img--tamanio {
+  height: 500px;
+  width: 800; }
+
+.mapa__titulo--tamanio {
+  font-size: 40px;
+  font-family: Tahoma; }
+
+.mapa--tamanio {
+  width: 100%;
+  height: 600px; }
+
+.contacto__titulo--tamanio {
+  font-size: 40px;
+  font-family: Tahoma; }
+
+.formulario--tamanio {
+  height: 1000px/2px; }
+
+.formulario__letra--tamanio {
+  font-size: 15px;
+  font-family: monospace; }
+
+.formulario__titulos--tamanio {
+  font-size: 20px;
+  font-family: Serif; }
+
+.formulario__boton--tamanio {
+  font-size: 20px;
+  font-family: Serif; }
+
+.info__presentacion--tamanio {
+  font-family: Tahoma; }
+
+/*el i no tiene que estar declarado anteriormente*/
+.col-1 {
+  width: 10%; }
+
+.col-2 {
+  width: 20%; }
+
+.col-3 {
+  width: 30%; }
+
+.col-4 {
+  width: 40%; }
+
+.col-5 {
+  width: 50%; }
+
+.col-6 {
+  width: 60%; }
+
+.col-7 {
+  width: 70%; }
+
+.col-8 {
+  width: 80%; }
+
+.col-9 {
+  width: 90%; }
+
+.col-10 {
+  width: 100%; }
+
+body {
+  margin: 0;
+  padding: 0; }
+
+.row {
+  display: flex; }
+
+.nav--responsive {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: flex-end;
+  width: 100%;
+  padding-right: 20px; }
+
+.presentacion__titulo--responsive {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+
+.footer--responsive {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: center; }
+
+.noticia__titulo--responsive {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+
+.quienes--responsive {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+
+.quienes__titulo--responsive {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+
+.mapa__titulo--responsive {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+
+.contacto__titulo--responsive {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+
+.formulario--responsive {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+
+.info__presentacion--responsive {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+
+.nav {
+  background-color: violet; }
+
+.presentacion__titulo--color {
+  color: orange; }
+
+.presentacion__parrafo--color {
+  color: black; }
+
+.footer {
+  background-color: violet; }
+
+.noticia__titulo--color {
+  color: orange; }
+
+.nav__text--color {
+  color: white;
+  text-shadow: black 1px 2px 2px; }
+
+.footer__text--color {
+  color: white;
+  text-shadow: black 1px 2px 2px; }
+
+.quienes__titulo--color {
+  color: orange; }
+
+.quienes__parrafo--color {
+  color: black; }
+
+.mapa__titulo--color {
+  color: orange; }
+
+.contacto__titulo--color {
+  color: orange; }
+
+.formulario__letra--color {
+  color: black; }
+
+.info__presentacion--color {
+  color: orangered; }
+
+.blue {
+  color: blue; }
+
+.yellow {
+  color: yellow; }
+
+.black {
+  color: black; }
+
+.white {
+  color: white; }
+
+/*mapget*/
+.mapa {
+  background-color: #D1FDFF;
+  padding: 1rem; }
+
+.mapa__titulo--color {
+  font-size: 35px;
+  color: orange; }
+
+.row {
+  width: 100%; }
+
+h1 {
+  font-size: 55px; }
+
+@media only screen and (min-width: 1024px) {
+  .presentacion .h1 {
+    font-size: 55px; }
+  .presentacion .h3 {
+    font-size: 35px; }
+  .presentacion .p {
+    font-size: 18px; } }
+
+.imagen--tamanio {
+  height: 80px;
+  width: 120px; }
+
+.presentacion__titulo--tamanio {
+  font-size: 40px;
+  font-family: Tahoma; }
+
+.presentacion__parrafo--tamanio {
+  font-size: 25px;
+  font-family: monospace; }
+
+.noticia__titulo--tamanio {
+  font-size: 40px;
+  font-family: Tahoma; }
+
+.noticia__img--tamanio {
+  height: 400px; }
+
+.nav__text--tamanio {
+  font-size: 20px; }
+
+.footer__text--tamanio {
+  font-size: 17px; }
+
+.quienes__titulo--tamanio {
+  font-size: 40px;
+  font-family: Tahoma; }
+
+.quienes__parrafo--tamanio {
+  font-size: 25px;
+  font-family: monospace; }
+
+.quienes__img--tamanio {
+  height: 500px;
+  width: 800; }
+
+.mapa__titulo--tamanio {
+  font-size: 40px;
+  font-family: Tahoma; }
+
+.mapa--tamanio {
+  width: 100%;
+  height: 600px; }
+
+.contacto__titulo--tamanio {
+  font-size: 40px;
+  font-family: Tahoma; }
+
+.formulario--tamanio {
+  height: 1000px/2px; }
+
+.formulario__letra--tamanio {
+  font-size: 15px;
+  font-family: monospace; }
+
+.formulario__titulos--tamanio {
+  font-size: 20px;
+  font-family: Serif; }
+
+.formulario__boton--tamanio {
+  font-size: 20px;
+  font-family: Serif; }
+
+.info__presentacion--tamanio {
+  font-family: Tahoma; }
+
+/*el i no tiene que estar declarado anteriormente*/
+.col-1 {
+  width: 10%; }
+
+.col-2 {
+  width: 20%; }
+
+.col-3 {
+  width: 30%; }
+
+.col-4 {
+  width: 40%; }
+
+.col-5 {
+  width: 50%; }
+
+.col-6 {
+  width: 60%; }
+
+.col-7 {
+  width: 70%; }
+
+.col-8 {
+  width: 80%; }
+
+.col-9 {
+  width: 90%; }
+
+.col-10 {
+  width: 100%; }
+
+/*.container{
+	margin:{
+		top:$margin;
+		bottom:$margin;
+		left:$margin;
+		right:$margin;
+	}
+
+	font:{
+	size:$h1Desktop;
+	style:italic;
+	family:tahoma;
+	}
+
+	.row {
+	padding:$padding;
+	transition: 1s;
+	&:hover{
+		background-color:$amarillo
+		}
+	}
+}
+*/
+.nav__item--boxM {
+  padding: 30px; }
+
+.imagen--boxM {
+  padding-top: 12px;
+  padding-left: 20px; }
+
+.nav__item--boxM a {
+  text-decoration: none;
+  font-family: Tahoma; }
+
+.footer {
+  position: relative;
+  width: 100%; }
+
+.noticia__img--padding {
+  padding-left: 600px; }
+
+.footer__item--boxM {
+  padding: 30px; }
+
+.footer__item--boxM a {
+  text-decoration: none;
+  font-family: Tahoma; }
+
+.presentacion_parrafo--boxM {
+  padding-right: 50px;
+  padding-left: 50px; }
+
+.quienes__parrafo--boxM {
+  padding-left: 20px;
+  padding-right: 20px; }
+
+.quienes__img--boxM {
+  padding-right: 90px; }
+
+.quienes {
+  padding-left: 50px;
+  padding-right: 50px; }
+
+.mapa--boxM {
+  padding-top: 20px;
+  padding-bottom: 20px; }
+
+.formulario--boxM {
+  padding-left: 25%;
+  padding-right: 25%; }
+
+.boton, .boton--aceptar {
+  width: 80px;
+  height: 30px;
+  background-color: grey;
+  text-align: center;
+  color: black;
+  border-radius: 5px;
+  border: 1px solid grey; }
+
+.boton--aceptar {
+  background-color: black;
+  color: orangered; }

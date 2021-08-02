@@ -1,0 +1,73 @@
+$azul:blue;
+$amarillo:yellow;
+$negro:black;
+$blanco:white;
+$violeta: violet;
+
+
+
+.nav {
+	background-color: $violeta;
+}
+.presentacion__titulo--color{
+	color: orange;
+}
+.presentacion__parrafo--color{
+	color:black;
+	
+}
+.footer{
+	background-color: $violeta;
+}
+
+.noticia__titulo--color{
+	color:orange;
+}
+.nav__text--color{
+	color:$blanco;
+	text-shadow: $negro 1px 2px 2px;
+}
+.footer__text--color{
+	color:$blanco;
+	text-shadow: $negro 1px 2px 2px;
+}
+.quienes__titulo--color{
+	color: orange;
+}
+.quienes__parrafo--color{
+	color: black;
+}
+
+}
+.contacto__titulo--color{
+	color:orange;
+}
+.formulario__letra--color{
+	color: black;
+}
+.info__presentacion--color{
+	color: orangered;
+}
+
+@each $color in blue, yellow, black, $blanco{
+	.#{$color}{
+	color:#{$color};
+	}
+}
+/*mapget*/
+$estilos: (
+  color: #D1FDFF,
+  upper: uppercase,
+  tFuente: 35px,
+  1rem : 1rem
+);
+
+.mapa{
+  background-color: map-get($estilos, color);
+  padding: map-get($estilos, 1rem);
+
+}
+.mapa__titulo--color{
+	font-size:map-get($estilos, tFuente);
+  color: orange;
+}

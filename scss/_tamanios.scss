@@ -1,0 +1,105 @@
+$parrafoDesktop:18px;
+$parrafoMobile:20px;
+$h1Desktop:55px;
+$h1Mobile:40px;
+$vista:desktop;
+
+.row {
+	width:(25% + 25%) *2;
+}
+
+h1{
+font-size:$h1Desktop;}
+
+.presentacion{
+@if $vista == desktop {
+	@media only screen and (min-width:1024px){
+		.h1{font-size:$h1Desktop;}
+		.h3{font-size:35px;}
+		.p{font-size:$parrafoDesktop;}
+		}
+	} @else if $vista == mobile {
+		@media only screen and (max-width:767px){
+			.h1{font-size:$h1Mobile;}
+			.h3{font-size:25px;}
+			.p{font-size:$parrafoMobile;}
+		}
+	} @else {
+		.h1{font-size:34px;}
+		.h3{font-size:25px;}
+		.p{font-size:20px;}
+}
+}
+.imagen--tamanio{
+	height: 80px;
+	width: 120px;
+}
+.presentacion__titulo--tamanio{
+	font-size: 40px;
+	font-family: Tahoma;
+}
+.presentacion__parrafo--tamanio{
+	font-size:25px;
+	font-family: monospace;
+}
+.noticia__titulo--tamanio{
+	font-size: 40px;
+	font-family: Tahoma;
+}
+.noticia__img--tamanio{
+	height: (200px *2);
+}
+.nav__text--tamanio{
+	font-size: 20px;
+}
+.footer__text--tamanio{
+	font-size: 17px;
+}
+.quienes__titulo--tamanio{
+	font-size: 40px;
+	font-family: Tahoma;
+}
+.quienes__parrafo--tamanio{
+	font-size:25px;
+	font-family: monospace;
+}
+.quienes__img--tamanio{
+	height: 500px;
+	width: (200*4);
+}
+.mapa__titulo--tamanio{
+	font-size: 40px;
+	font-family: Tahoma;
+}
+.mapa--tamanio{
+	width:(25% + 25%) *2;
+	height: 600px;
+}
+.contacto__titulo--tamanio{
+	font-size: 40px;
+	font-family: Tahoma;
+}
+.formulario--tamanio{
+	height: 1000px/2px;
+}
+.formulario__letra--tamanio{
+	font-size:15px;
+	font-family: monospace;
+}
+.formulario__titulos--tamanio{
+	font-size: 20px;
+	font-family: Serif;
+}
+.formulario__boton--tamanio{
+	font-size: 20px;
+	font-family: Serif;
+}
+.info__presentacion--tamanio{
+	font-family: Tahoma;
+}
+/*el i no tiene que estar declarado anteriormente*/
+@for $i from 1 through 10 {
+	.col-#{$i}{
+	width:10% * $i;
+	}
+	}

@@ -1,0 +1,79 @@
+@import "colores";
+@import "tamanios";
+$padding: 50px;
+$margin:50px;
+
+/*.container{
+	margin:{
+		top:$margin;
+		bottom:$margin;
+		left:$margin;
+		right:$margin;
+	}
+
+	font:{
+	size:$h1Desktop;
+	style:italic;
+	family:tahoma;
+	}
+
+	.row {
+	padding:$padding;
+	transition: 1s;
+	&:hover{
+		background-color:$amarillo
+		}
+	}
+}
+*/
+
+.nav__item--boxM{
+	padding:30px;
+}
+
+.imagen--boxM{
+	padding-top: 12px;
+	padding-left: 20px;
+}
+.nav__item--boxM a{
+	text-decoration: none;
+	font-family: Tahoma;
+}
+.footer{
+	position: relative;
+	width:100%;
+}
+.noticia__img--padding{
+	padding-left: 600px;
+}
+.footer__item--boxM{
+	padding:30px;
+}
+.footer__item--boxM a{
+	text-decoration: none;
+	font-family: Tahoma;
+}
+.presentacion_parrafo--boxM{
+	padding-right: 50px;
+	padding-left: 50px;
+}
+.quienes__parrafo--boxM{
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.quienes__img--boxM{
+	padding-right: 90px;
+}
+.quienes{
+	padding-left: 50px;
+	padding-right: 50px;
+}
+.mapa--boxM{
+	padding-top: 20px;
+	padding-bottom:20px;
+}
+.formulario--boxM{
+	padding-left: 25%;
+	padding-right: 25%;
+
+}
